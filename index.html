@@ -3,39 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>Flexbox login panel</title>
-    <meta type="description" name="SCSS login panel">
+    <meta type="description" name="Flexbox, login panel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="css/fontello.css">
-    <!-- FAV -->
-    
-
 </head>
 <body>
     <div class="container">
-        <form>
-            <header>
-                <h1>Login <span>Panel</span></h1>
-                <h2>logowanie do poczty</h2>
+        <form class="container__form">
+            <header class="header">
+                <h1 class="header__title">
+                    Login <span class="header__color">Panel</span>
+                </h1>
+                <h2 class="header__subtitle">logging in to mail</h2>
             </header>
-            <main>
-                <section class="relative-box">
-                    <i class="icon-mail"></i>
-                    <input type="text" placeholder="email">
+            <main class="main">
+                <section class="main__item">
+                    <i class="main__icon icon-mail"></i>
+                    <input class="main__input login" type="text" placeholder="email">
                 </section>
-                <section class="relative-box">
-                    <i class="icon-key"></i>
-                    <input type="password" placeholder="hasło">
+                <section class="main__item">
+                    <i class="main__icon icon-key"></i>
+                    <input class="main__input password" type="password" placeholder="password">
                 </section>
-                <button type="submit">Zaloguj się</button>
+                <button class="main__button" type="submit">Sing In</button>
             </main>
-            <label>
-                <input type="checkbox">Zapamiętaj mnie
+            <label class="label">
+                <input type="checkbox">Remember me!
             </label>
         </form>      
-        <a class="info" href="#">Nie pamiętasz hasła?</a>
+        <a class="info" href="#">Forgot password?</a>
     </div>
 
 <script src="js/index.js"></script>
