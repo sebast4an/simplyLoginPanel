@@ -1,0 +1,1 @@
+alert("Strona stworzona dawno temu w ramach testów");
