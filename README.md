@@ -9,5 +9,6 @@ RWD login panel using only flexbox.
 * preprocesor SASS (SCSS)
 * Flexbox
 * Fontello font
+* Google fonts
 * VanillaJS (ES6)
 
